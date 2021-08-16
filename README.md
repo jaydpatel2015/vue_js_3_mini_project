@@ -1,24 +1,23 @@
 # vue_restaurant_project
 
-## Project setup
+## Modules of Project
+
+# FrontEnd
 ```
-npm install
+ Login User
+ Register User
+ Routing
+ Logout
+ API
+ Restaurant's List
+ Add Restaurant
+ Delete Restaurant
+ Update Restaurant
+ Sorting
+```
+# Backend
 ```
 
-### Compiles and hot-reloads for development
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
