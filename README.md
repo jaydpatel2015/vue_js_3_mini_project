@@ -17,7 +17,6 @@
 ```
 # Backend
 ```
-Code Editor: VS Code
 API Source : JSON-Server
 API Testing : Postman // Thunder Client
 APIs
@@ -30,6 +29,9 @@ APIs
 # Package
 ```
 Axios for API Integration
+VS Code for Codeeditor
+NPM for node modules
+
 ```
 
 ### Customize configuration
