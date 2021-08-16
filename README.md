@@ -27,5 +27,10 @@ APIs
  - Update Restaurant API
  - User Auth
 ```
+# Package
+```
+Axios for API Integration
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
