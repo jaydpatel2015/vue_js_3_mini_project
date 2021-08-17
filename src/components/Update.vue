@@ -1,0 +1,28 @@
+<template>
+    <div>  
+        <Header />
+        <h1>Update Restaurant Details</h1>
+    </div>
+</template>
+
+<script>
+import Header from './Header.vue'
+export default {
+    name:"Update",
+    components:{
+        Header
+    },
+    data(){
+        return{
+            name:""
+        }
+    },
+    mounted(){
+        let uName=localStorage.getItem('login-info')
+        this.name=JSON.parse(uName).name
+        if(!uName){
+            this.$router.push({name:"SignUp"})
+        }
+    }
+}
+</script>
