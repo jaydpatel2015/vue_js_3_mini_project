@@ -1,0 +1,54 @@
+{
+  "user": [
+    {
+      "email": "jay@gmail.com",
+      "name": "Jay",
+      "password": "jay@123",
+      "id": 1
+    },
+    {
+      "email": "bruce@dc.com",
+      "name": "Bruce",
+      "password": "bruce@123",
+      "id": 2
+    },
+    {
+      "email": "tony@marvel.com",
+      "name": "Tony",
+      "password": "tony@123",
+      "id": 3
+    },
+    {
+      "email": "clark@gmail.com",
+      "name": "Clark",
+      "password": "clark@123",
+      "id": 4
+    },
+    {
+      "email": "peter@gmail.com",
+      "name": "Peter",
+      "password": "peter@123",
+      "id": 5
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Khana Khazana",
+      "address": "VIP Road, Surat, Gujarat, India",
+      "contact": 9126129546544,
+      "id": 1
+    },
+    {
+      "name": "Silver hut",
+      "address": "Ghoddod Road, Surat, Gujarat, India",
+      "contact": 9126129576559,
+      "id": 2
+    },
+    {
+      "name": "Punjabi di hatti",
+      "address": "near umabhavan, bhatar road,surat",
+      "contact": "912612654478",
+      "id": 3
+    }
+  ]
+}
