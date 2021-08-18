@@ -6,7 +6,6 @@
 export default {
   name: 'App',
   components: {
-    
   }
 }
 </script>
@@ -33,7 +32,7 @@ body{
         height: 200px;
         width: 200px;
   }
-.signUpBox, .loginBox{
+.signUpBox, .loginBox, .add,.updateForm{
         margin-left: 40%;
         padding: 10px;
         border: 1px solid black;
@@ -42,7 +41,7 @@ body{
         border-radius: 10px;
         box-shadow: 0px 1px 5px rgba(0,0,0,0.7);
   }
-.register input, .login input{
+.register input, .login input, .add input,.updateForm input{
         padding: 10px;
         margin-bottom: 15px;
         width: 200px;
@@ -50,7 +49,7 @@ body{
         border-radius: 10px;
         box-shadow: 0px 1px 5px rgba(0,0,0,0.7);
 }
-.register button, .login button{
+.register button, .login button, .add button,.updateForm button{
         padding: 15px;
         margin-bottom: 10px;
         border: 1px solid black;
@@ -67,5 +66,21 @@ body{
         color: white;
         text-decoration: none;
 }
+.div-table {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+}
 
+.table .table-head tr th{
+        border:1px solid black;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 600;
+}
+.table .table-body tr td{
+        border:1px solid black;
+        padding: 10px;
+        font-size: 18px;
+}
 </style>
